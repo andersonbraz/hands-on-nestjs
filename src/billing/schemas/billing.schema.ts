@@ -13,4 +13,4 @@ export class Billing extends Document {
   breed: string;
 }
 
-export const CBillingSchema = SchemaFactory.createForClass(Billing);
+export const BillingSchema = SchemaFactory.createForClass(Billing);

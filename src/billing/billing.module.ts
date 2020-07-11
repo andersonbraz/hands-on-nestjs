@@ -5,7 +5,7 @@ import { BillingService } from './billing.service';
 import { Billing, BillingSchema } from './schemas/billing.schema';
 
 @Module({
-  imports: [MongooseModule.forFeature([{ name: Cat.name, schema: CatSchema }])],
+  imports: [MongooseModule.forFeature([{ name: Billing.name, schema: BillingSchema }])],
   controllers: [BillingController],
   providers: [BillingService],
 })
