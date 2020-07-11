@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Automations by Anderson Braz
+*.sh
+*.bat
+
+# MacOS by Anderson Braz
+*.DS_Store
