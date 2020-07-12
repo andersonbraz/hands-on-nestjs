@@ -6,7 +6,7 @@ import { Billing } from './schemas/billing.schema';
 
 @Injectable()
 export class BillingService {
-  constructor(@InjectModel(Billing.name) private readonly cbillingModel: Model<Billing>) {}
+  constructor(@InjectModel(Billing.name) private readonly billingModel: Model<Billing>) {}
 
   async create(createBillingDto: CreateBillingDto): Promise<Billing> {
     const createdBilling = new this.billingModel(createBillingDto);
